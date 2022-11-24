@@ -3,7 +3,7 @@ const http = require("http")
 const users = [
     { id: 1, name: "zhangsan" },
     { id: 2, name: "lisi" },
-    { id: 3, name: "wangwu" }
+    { id: 3, name: "wangwu" },
 ]
 
 const server = http.createServer((req, res) => {
